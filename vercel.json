@@ -1,9 +1,0 @@
-{
-  "rewrites": [
-    { "source": "/api/v1/(.*)", "destination": "/api" }
-  ],
-  "buildCommand": "cd frontend && npm ci && npm run build",
-  "outputDirectory": "frontend/dist"
-}
-
-
